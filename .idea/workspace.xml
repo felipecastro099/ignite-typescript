@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1917b1b4-83f5-4d11-8535-95429f590f50" name="Changes" comment="" />
+    <list default="true" id="1917b1b4-83f5-4d11-8535-95429f590f50" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/importCategory/ImportCategoryUseCase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/useCases/importCategory/ImportCategoryUseCase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/importCategory/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/useCases/importCategory/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/categories.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/categories.routes.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="23lNoq6TqX65AvNgV5K7UJvglmH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,12 +70,23 @@
       <workItem from="1642306468233" duration="150000" />
       <workItem from="1642306620525" duration="196000" />
       <workItem from="1642306819023" duration="295000" />
-      <workItem from="1642620781785" duration="6341000" />
+      <workItem from="1642620781785" duration="8762000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
