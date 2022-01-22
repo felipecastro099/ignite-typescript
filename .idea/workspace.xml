@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1917b1b4-83f5-4d11-8535-95429f590f50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/swagger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ormconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/database/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/cars/model/Category.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/entities/Category.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/cars/model/Specification.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/entities/Specification.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/cars/repositories/ICategoriesRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/repositories/ICategoriesRepository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/cars/repositories/ISpecificationRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/repositories/ISpecificationRepository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/cars/repositories/implementations/CategoriesRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/repositories/implementations/CategoriesRepository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/cars/repositories/implementations/SpecificationsRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/repositories/implementations/SpecificationsRepository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/listCategories/ListCategoriesUseCase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/useCases/listCategories/ListCategoriesUseCase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/listSpecifications/ListSpecificationsUseCase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/useCases/listSpecifications/ListSpecificationsUseCase.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/27bee9de548f4e7dd8935c7485c64d34" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/2ad6b25389857448b192a39fdb0f3302" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/b7c12195b0fe645fbfb88a229eefba9a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/db928b7e2f1975cacbe6ebd9758b006c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -42,7 +50,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -76,7 +84,9 @@
       <workItem from="1642306468233" duration="150000" />
       <workItem from="1642306620525" duration="196000" />
       <workItem from="1642306819023" duration="295000" />
-      <workItem from="1642620781785" duration="9769000" />
+      <workItem from="1642620781785" duration="12510000" />
+      <workItem from="1642878169280" duration="2000" />
+      <workItem from="1642878180910" duration="6208000" />
     </task>
     <servers />
   </component>
