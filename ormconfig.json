@@ -6,13 +6,10 @@
     "password": "root",
     "database": "app",
     "entities": [
-        "src/entity/**/*.ts"
+        "src/modules/**/entities/**/*.ts"
     ],
     "migrations": [
         "src/database/migrations/**/*.ts"
-    ],
-    "subscribers": [
-        "src/subscriber/**/*.ts"
     ],
     "cli": {
         "migrationsDir": "src/database/migrations"
