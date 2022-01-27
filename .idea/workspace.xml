@@ -2,34 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1917b1b4-83f5-4d11-8535-95429f590f50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/shared/container/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/errors/AppError.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middlewares/ensureAuthenticated.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middlewares/errorHandler.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/accounts/dtos/ICreateUserDTO.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/accounts/entities/User.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/accounts/repositories/IUsersRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/accounts/repositories/implementations/UsersRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/accounts/useCases/authenticateUser/AuthenticateUserController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/accounts/useCases/authenticateUser/AuthenticateUserUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/accounts/useCases/createUser/CreateUseController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/accounts/useCases/createUser/CreateUseUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/authenticate.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/users.routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ormconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/ormconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/repositories/ICategoriesRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/repositories/ICategoriesRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/repositories/ISpecificationRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/repositories/ISpecificationsRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/repositories/implementations/CategoriesRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/repositories/implementations/CategoriesRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/repositories/implementations/SpecificationsRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/repositories/implementations/SpecificationsRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/createCategory/CreateCategoryController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/useCases/createCategory/CreateCategoryController.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/createCategory/CreateCategoryUseCase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/useCases/createCategory/CreateCategoryUseCase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/createCategory/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/createSpecification/CreateSpecificationController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/useCases/createSpecification/CreateSpecificationController.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/createSpecification/CreateSpecificationUseCase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/useCases/createSpecification/CreateSpecificationUseCase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/createSpecification/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/importCategory/ImportCategoryController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/useCases/importCategory/ImportCategoryController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/importCategory/ImportCategoryUseCase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/useCases/importCategory/ImportCategoryUseCase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/importCategory/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/listCategories/ListCategoriesController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/useCases/listCategories/ListCategoriesController.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/listCategories/ListCategoriesUseCase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/useCases/listCategories/ListCategoriesUseCase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/listCategories/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/listSpecifications/ListSpecificationsController.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/listSpecifications/ListSpecificationsUseCase.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/useCases/listSpecifications/index.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/categories.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/categories.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/specifications.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/specifications.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/swagger.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/swagger.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/container/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +98,12 @@
       <workItem from="1642306819023" duration="295000" />
       <workItem from="1642620781785" duration="12510000" />
       <workItem from="1642878169280" duration="2000" />
-      <workItem from="1642878180910" duration="13021000" />
+      <workItem from="1642878180910" duration="17147000" />
+      <workItem from="1643056159225" duration="1815000" />
+      <workItem from="1643113155802" duration="1103000" />
+      <workItem from="1643114773662" duration="2320000" />
+      <workItem from="1643126108318" duration="1515000" />
+      <workItem from="1643144389655" duration="2977000" />
     </task>
     <servers />
   </component>
