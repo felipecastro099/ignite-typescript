@@ -1,8 +1,9 @@
 import { inject, injectable } from 'tsyringe';
 
-import { AppError } from '../../../../errors/AppError';
-import { deleteFile } from '../../../../utils/file';
-import { UsersRepository } from '../../repositories/implementations/UsersRepository';
+import { AppError } from '@shared/errors/AppError';
+import { deleteFile } from '@utils/file';
+
+import { UsersRepository } from '../../infra/typeorm/repositories/UsersRepository';
 
 interface IRequest {
     user_id: string;
