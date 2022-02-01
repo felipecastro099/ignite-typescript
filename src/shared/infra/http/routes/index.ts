@@ -1,5 +1,7 @@
 import { Router } from 'express';
 
+import { carsRoutes } from '@shared/infra/http/routes/cars.routes';
+
 import { authenticateRoutes } from './authenticate.routes';
 import { categoriesRoutes } from './categories.routes';
 import { specificationsRoutes } from './specifications.routes';
@@ -10,6 +12,7 @@ const router = Router();
 router.use('/categories', categoriesRoutes);
 router.use('/specifications', specificationsRoutes);
 router.use('/users', usersRoutes);
+router.use('/cars', carsRoutes);
 router.use(authenticateRoutes);
 
 export { router };
