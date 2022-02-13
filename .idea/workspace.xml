@@ -2,30 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1917b1b4-83f5-4d11-8535-95429f590f50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/modules/cars/infra/typeorm/entities/CarImages.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/cars/infra/typeorm/repositories/CarImagesRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/cars/repositories/ICarImagesRepository.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/cars/repositories/in-memory/SpecificationRepositoryInMemory.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/cars/useCases/createCarSpecification/CreateCarSpecicationUseCase.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/cars/useCases/createCarSpecification/CreateCarSpecicationUseCase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/cars/useCases/listAvaliableCars/ListAvaliableCarsController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/cars/useCases/listAvaliableCars/ListAvaliableCarsUseCase.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/cars/useCases/listAvaliableCars/ListAvaliableCarsUseCase.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/cars/useCases/uploadCarImage/UploadCarImagesController.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/cars/useCases/uploadCarImage/UploadCarImagesUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/cars/useCases/createCategory/CreateCategoryController.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/cars/useCases/listCategories/ListCategoriesController.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/rentals/dtos/ICreateRentalDTO.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/rentals/infra/typeorm/entities/Rental.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/rentals/infra/typeorm/repositories/RentalsRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/rentals/repositories/IRentalsRepository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/rentals/repositories/in-memory/RentalsRepositoryInMemory.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/rentals/useCases/createRental/CreateRentalController.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/rentals/useCases/createRental/CreateRentalUseCase.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/rentals/useCases/createRental/CreateRentalUseCase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/DateProvider/IDateProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/DateProvider/implementations/DayJsDateProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/container/providers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/infra/http/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/infra/http/routes/rental.routes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/dtos/ICreateCarDTO.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/dtos/ICreateCarDTO.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/infra/typeorm/entities/Car.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/infra/typeorm/entities/Car.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/infra/typeorm/entities/Specification.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/infra/typeorm/entities/Specification.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/infra/typeorm/repositories/CarsRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/infra/typeorm/repositories/CarsRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/infra/typeorm/repositories/SpecificationsRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/infra/typeorm/repositories/SpecificationsRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/repositories/ICarsRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/repositories/ICarsRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/repositories/ISpecificationsRepository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/repositories/ISpecificationsRepository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/cars/repositories/in-memory/CarsRepositoryInMemory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/cars/repositories/in-memory/CarsRepositoryInMemory.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/accounts/infra/typeorm/entities/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/accounts/infra/typeorm/entities/User.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shared/container/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/container/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/infra/http/routes/cars.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/http/routes/cars.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/infra/http/routes/categories.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/http/routes/categories.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/infra/http/routes/specifications.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/http/routes/specifications.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/infra/http/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/http/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/infra/http/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/http/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/infra/typeorm/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/typeorm/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/infra/typeorm/migrations/1644357763585-createRentalsTable.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/infra/typeorm/migrations/1644357763585-createRentalsTable.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
     <property name="eslint.code.style.apply.dismiss" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/modules/cars/infra/typeorm" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -65,7 +67,7 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -75,85 +77,87 @@
       <recent name="$PROJECT_DIR$/src/modules/accounts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/shared/container" />
       <recent name="$PROJECT_DIR$/src/shared/infra" />
       <recent name="$PROJECT_DIR$/src/shared" />
       <recent name="$PROJECT_DIR$/src/shared/infra/http" />
       <recent name="$PROJECT_DIR$/src/modules/cars/infra/typeorm" />
-      <recent name="$PROJECT_DIR$/src/modules/accounts/infra/typeorm" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Create car specification.should be able to add a new specification in car">
-    <configuration name="Create car specification" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.List Categories">
+    <configuration name="Create Rental" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/modules/cars/useCases/createCarSpecification/CreateCarSpecicationUseCase.spec.ts" />
+      <test-file value="$PROJECT_DIR$/src/modules/rentals/useCases/createRental/CreateRentalUseCase.spec.ts" />
       <test-names>
-        <test-name value="Create car specification" />
+        <test-name value="Create Rental" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Create car specification.should be able to add a new specification in car" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/modules/cars/useCases/createCarSpecification/CreateCarSpecicationUseCase.spec.ts" />
-      <test-names>
-        <test-name value="Create car specification" />
-        <test-name value="should be able to add a new specification in car" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="List cars" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Create category controller (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/src/modules/cars/useCases/listCars/ListCarsUseCase.spec.ts" />
+      <test-file value="$PROJECT_DIR$/src/modules/cars/useCases/createCategory/CreateCategoryController.spec.ts" />
       <test-names>
-        <test-name value="List cars" />
+        <test-name value="Create category controller" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="List cars.should be able to list all available cars" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Create category controller" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/modules/cars/useCases/createCategory/CateCategoryController.spec.ts" />
+      <test-names>
+        <test-name value="Create category controller" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Create category controller.should be able to create a new category" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/modules/cars/useCases/listCars/ListCarsUseCase.spec.ts" />
+      <test-file value="$PROJECT_DIR$/src/modules/cars/useCases/createCategory/CreateCategoryController.spec.ts" />
       <test-names>
-        <test-name value="List cars" />
-        <test-name value="should be able to list all available cars" />
+        <test-name value="Create category controller" />
+        <test-name value="should be able to create a new category" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="seed:admin" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="seed:admin" />
-      </scripts>
+    <configuration name="List Categories" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
       <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/modules/cars/useCases/listCategories/ListCategoriesController.spec.ts" />
+      <test-names>
+        <test-name value="List Categories" />
+      </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Create car specification.should be able to add a new specification in car" />
-        <item itemvalue="Jest.Create car specification" />
-        <item itemvalue="Jest.List cars" />
-        <item itemvalue="Jest.List cars.should be able to list all available cars" />
-        <item itemvalue="npm.seed:admin" />
+        <item itemvalue="Jest.List Categories" />
+        <item itemvalue="Jest.Create category controller (1)" />
+        <item itemvalue="Jest.Create category controller.should be able to create a new category" />
+        <item itemvalue="Jest.Create category controller" />
+        <item itemvalue="Jest.Create Rental" />
       </list>
     </recent_temporary>
   </component>
@@ -195,6 +199,10 @@
       <workItem from="1643827588517" duration="2547000" />
       <workItem from="1643831083249" duration="6441000" />
       <workItem from="1644182064051" duration="5158000" />
+      <workItem from="1644538118546" duration="5000" />
+      <workItem from="1644680491972" duration="1581000" />
+      <workItem from="1644682082852" duration="11020000" />
+      <workItem from="1644771967458" duration="2320000" />
     </task>
     <servers />
   </component>
@@ -229,6 +237,11 @@
           <url>file://$PROJECT_DIR$/src/modules/cars/useCases/createCarSpecification/CreateCarSpecicationUseCase.ts</url>
           <line>29</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/modules/rentals/useCases/createRental/CreateRentalUseCase.spec.ts</url>
+          <line>17</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
